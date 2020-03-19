@@ -1,0 +1,146 @@
+h1{
+  font-size: 50px;
+  color: #FBD638;
+  font: "SansSerif";
+}
+p{
+  color: white;
+  font-size: 20px;
+  font: "sans-serif" ;
+}
+.container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.imagem {
+ background-image: url("src/assets/img/bgservicos.jpg");
+}
+.servicos{
+  text-align: center;
+  margin: 5px;
+}
+.servicos h1{
+  font-size: 50px;
+  color: #A98D1A;
+}
+.img{
+  width: 1107px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+.imgServ{
+  border-radius: 50%;
+  width: 255px;
+  height: 255px;
+}
+.btn-btn{
+  background-color: #F9DE6B;
+  border-radius: 5px;
+  text-align: center;
+}
+.btnS{
+  color: #000000;
+  background-color: #E7E5D6;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+.comp{
+  background-color: rgb(231, 229, 214);
+}
+.comp h1{
+  font-size: 30px;
+  color: #A98D1A;
+}
+.seta-down{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 3%;
+}
+h3{
+  font-size: 30px;
+  color: #000000;
+  margin: 20px 0px 10px;
+  text-align: center;
+}
+.comp {
+  font-size: 30px;
+  text-align: center;
+  color: #a98d1a;
+  font-family: 'Russo One', sans-serif;
+}
+h2, .h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #a98d1a;
+  font-family: 'Russo One', sans-serif;
+}
+.prodQuali{
+  display: flex;
+  flex-direction: row;
+}
+.text-left h2 {
+  width: 100%;
+  max-width: 420px;
+  color: #e7bb05;
+  margin: 0 0 50px 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+}
+.text-left p {
+  color: black;
+  width: 100%;
+  max-width: 420px;
+  margin-bottom: 80px;
+  font-size: 17px;
+}
+a:hover{
+}
+.slick-prev {
+  left: 1px;
+  z-index: 50;
+  background: url("src/assets/img/arrow-left.svg");
+}
+.empr img{
+  width:"304";
+  height:"236"
+}
+.container h2 {
+  margin-top: 60px;
+}
+.contato-filter {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+.formulario-direita {
+  background: #f1d254;
+  flex: 1;
+  height: 700px;
+}
+.form-contact {
+  padding: 40px;
+  width: 100%;
+  max-width: 594px;
+  position: relative;
+  z-index: 1001;
+}
+.form-contact h3 {
+  color: #7b6609;
+}
+.form-contact p{
+  margin: 0 0 10px;
+  font-family: 'Poppins', SansSerif;
+  color: black;
+}
+.form-group{
+  margin-bottom: 15px;
+}
+
