@@ -25,10 +25,11 @@ h2 {
   font-family: 'Russo One', sans-serif;
 }
 h3{
-  font-size: 30px;
+  font-size: 20px;
   color: #000000;
-  margin: 20px 0px 10px;
+  margin: 20px 0  10px;
   text-align: center;
+  font-family: 'Russo One', sans-serif;
 }
 p{
   color: white;
@@ -219,13 +220,70 @@ textarea {
 .contato a{
   background-color: transparent;
 }
-/*.seta-down{*/
-/*  position: absolute;*/
-/*  display: flex;*/
-/*  align-items: center;*/
-/*  justify-content: center;*/
-/*  bottom: 3%;*/
+footer{
+  width: 100%;
+  height: 100%;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  color: #080808;
+  text-align: center;
+  background: #e7e5d6;
+}
+/*footer .container{*/
+/*  width: 750px;*/
+/*  padding-right: 15px;*/
+/*  padding-left: 15px;*/
+/*  margin-right: auto;*/
+/*  margin-left: auto;*/
 /*}*/
+.itens-footer {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.itens-footer p{
+  color: #080808;
+  margin: 0 0 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+.itens-footer h3{
+  font-size: 30px;
+  font-family: 'Russo One', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  text-align: left;
+}
+b{
+  font-weight: bold;
+}
+.garantia{
+  display: flex;
+}
+.itens-footer img {
+  margin: 25px;
+  vertical-align: middle;
+  border: 0;
+}
+.copyright{
+  color: #080808;
+  text-align: center;
+}
+.copyright h3{
+  font-size: 12px;
+  font-family: arial, helvetica;
+  margin: 20px 0 10px;
+}
+.copyright a {
+  font-size: 12px;
+  color: #000;
+  text-decoration: none;
+  background-color: transparent;
+
+}
 
 
 
