@@ -1,18 +1,63 @@
+.btn{
+  margin: 30px 0 20px 0;
+  padding: 8px;
+  width: 250px;
+  height: 40px;
+  position: relative;
+  transition: all 1s;
+  text-decoration: none;
+}
+.btn-btn{
+  background-color: #F9DE6B;
+  border-radius: 5px;
+  text-align: center;
+}
 h1{
+  margin-top: 60px;
   font-size: 50px;
   color: #FBD638;
   font: "SansSerif";
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #a98d1a;
+  font-family: 'Russo One', sans-serif;
+}
+h3{
+  font-size: 30px;
+  color: #000000;
+  margin: 20px 0px 10px;
+  text-align: center;
 }
 p{
   color: white;
   font-size: 20px;
   font: "sans-serif" ;
 }
+a:hover{
+  background-color: #FBD638;
+}
 .container{
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+.container1 {
+  padding: 0px 15px;
+  margin: 0px 59.01px;
+}
+.container h2 {
+  color: #7b6609;
+  margin-top: 60px;
+}
+.img{
+  margin-top: 60px;
+  width: auto;
+  position: relative;
+  left: 0px;
+  top: 0px;
 }
 .imagem {
  background-image: url("src/assets/img/bgservicos.jpg");
@@ -25,21 +70,9 @@ p{
   font-size: 50px;
   color: #A98D1A;
 }
-.img{
-  width: 1107px;
-  position: relative;
-  left: 0px;
-  top: 0px;
-}
 .imgServ{
-  border-radius: 50%;
   width: 255px;
   height: 255px;
-}
-.btn-btn{
-  background-color: #F9DE6B;
-  border-radius: 5px;
-  text-align: center;
 }
 .btnS{
   color: #000000;
@@ -48,37 +81,20 @@ p{
   text-align: center;
   font-size: 14px;
 }
-.comp{
-  background-color: rgb(231, 229, 214);
+.comp {
+  background-color: #E7E5D6;
+  font-size: 30px;
+  text-align: center;
+  color: #a98d1a;
+  font-family: 'Russo One', sans-serif;
 }
 .comp h1{
   font-size: 30px;
   color: #A98D1A;
 }
-.seta-down{
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  bottom: 3%;
-}
-h3{
-  font-size: 30px;
-  color: #000000;
-  margin: 20px 0px 10px;
-  text-align: center;
-}
-.comp {
-  font-size: 30px;
-  text-align: center;
-  color: #a98d1a;
-  font-family: 'Russo One', sans-serif;
-}
-h2, .h2 {
-  font-size: 30px;
-  text-align: center;
-  color: #a98d1a;
-  font-family: 'Russo One', sans-serif;
+.empresa{
+  margin: 0px 59.01px;
+  padding: 0px 15px;
 }
 .prodQuali{
   display: flex;
@@ -88,7 +104,7 @@ h2, .h2 {
   width: 100%;
   max-width: 420px;
   color: #e7bb05;
-  margin: 0 0 50px 0;
+  margin: 60px 0 50px 0;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 22px;
@@ -100,19 +116,8 @@ h2, .h2 {
   margin-bottom: 80px;
   font-size: 17px;
 }
-a:hover{
-}
-.slick-prev {
-  left: 1px;
-  z-index: 50;
-  background: url("src/assets/img/arrow-left.svg");
-}
-.empr img{
-  width:"304";
-  height:"236"
-}
-.container h2 {
-  margin-top: 60px;
+.nous-contacter{
+
 }
 .contato-filter {
   display: flex;
@@ -121,26 +126,112 @@ a:hover{
   justify-content: center;
 }
 .formulario-direita {
-  background: #f1d254;
-  flex: 1;
-  height: 700px;
+   background: #f1d254;
+   flex: 1;
+   height: 700px;
 }
 .form-contact {
-  padding: 40px;
   width: 100%;
+  padding: 40px;
   max-width: 594px;
   position: relative;
   z-index: 1001;
 }
-.form-contact h3 {
+.form-contact h2 {
   color: #7b6609;
+  font-size: 30px;
+  text-align: left;
 }
 .form-contact p{
   margin: 0 0 10px;
-  font-family: 'Poppins', SansSerif;
+  font-family: 'Poppins', SansSerif, sans-serif;
   color: black;
+  font-size: 14px;
+  text-align: left;
 }
 .form-group{
   margin-bottom: 15px;
 }
+.empr img{
+  width:"304";
+  height:"236"
+}
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+}
+input{
+  border: none !important;
+  border-bottom: 2px solid #fbd638;
+  margin: 6px;
+  padding: 10px;
+  width: 100%;
+  color: #000 !important;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0) !important;
+  resize: none;
+}
+textarea {
+  border: #FBD638;
+  border-bottom: 2px solid #fbd638;
+  margin: 6px;
+  padding: 10px;
+  width: 100%;
+  color: #000 !important;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+.formulario-esquerda{
+  flex: 1;
+  height: 700px;
+}
+.icone-contato{
+  width: 100%;
+  padding: 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.icone-contato h2{
+  margin: 60px 40px ;
+  font-size: 30px;
+  text-align: center;
+  color: #A98D1A;
+}
+.icone-contato p{
+  color: #000000;
+  margin: 20px;
+  font-size: 14px;
+  max-width: 300px;
+}
+.contato img{
+  margin: 0 10px;
+  vertical-align: middle;
+  border: 0;
+}
+.contato a{
+  background-color: transparent;
+}
+/*.seta-down{*/
+/*  position: absolute;*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  bottom: 3%;*/
+/*}*/
+
+
+
+
+
+
+
+
 
