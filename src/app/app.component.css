@@ -1,3 +1,27 @@
+.seta-down{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 3%;
+  z-index: 89;
+}
+.seta-down a{
+  background-color: transparent;
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.seta-down img{
+  vertical-align: middle;
+  border: 0;
+}
+.container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .btn{
   margin: 30px 0 20px 0;
   padding: 8px;
@@ -11,6 +35,7 @@
   background-color: #F9DE6B;
   border-radius: 5px;
   text-align: center;
+  font-size: 14px;
 }
 h1{
   margin-top: 60px;
@@ -19,6 +44,8 @@ h1{
   font: "SansSerif";
 }
 h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
   font-size: 30px;
   text-align: center;
   color: #a98d1a;
@@ -39,15 +66,10 @@ p{
 a:hover{
   background-color: #FBD638;
 }
-.container{
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 .container1 {
-  padding: 0px 15px;
-  margin: 0px 59.01px;
+  padding: 0 15px;
+  margin: 0 59.01px;
 }
 .container h2 {
   color: #7b6609;
@@ -57,8 +79,8 @@ a:hover{
   margin-top: 60px;
   width: auto;
   position: relative;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
 }
 .imagem {
  background-image: url("src/assets/img/bgservicos.jpg");
