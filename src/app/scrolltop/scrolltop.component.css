@@ -1,0 +1,20 @@
+#scrolltop {
+  position: fixed;
+  z-index: 97;
+  height: 40px;
+  width: 40px;
+  bottom: 90px;
+  right: 5px;
+}
+
+#scrolltop .scrollbutton {
+  position: absolute;
+  cursor: pointer;
+}
+a{
+  background-color: transparent;
+}
+img{
+  vertical-align: middle;
+  border: 0;
+}

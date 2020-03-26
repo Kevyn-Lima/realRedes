@@ -8,6 +8,7 @@ import { ServicosComponent } from './servicos/servicos.component';
 import { EmpresaComponent } from './empresa/empresa.component';
 import { ContatosComponent } from './contatos/contatos.component';
 import { FooterComponent } from './footer/footer.component';
+import { ScrolltopComponent } from './scrolltop/scrolltop.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FooterComponent } from './footer/footer.component';
     ServicosComponent,
     EmpresaComponent,
     ContatosComponent,
-    FooterComponent
+    FooterComponent,
+    ScrolltopComponent
   ],
   imports: [
     BrowserModule
