@@ -11,6 +11,9 @@
   margin-right: auto;
   margin-left: auto;
 }
+.container h3{
+  text-align: center;
+}
 .servicos{
   text-align: center;
   margin: 5px;
