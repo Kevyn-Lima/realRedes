@@ -1,0 +1,68 @@
+.imagem {
+  background-image: url("src/assets/img/bgservicos.jpg");
+}
+.imgServ{
+  width: 255px;
+  height: 255px;
+}
+.container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.servicos{
+  text-align: center;
+  margin: 5px;
+}
+.servicos h1{
+  font-size: 50px;
+  color: #A98D1A;
+}
+.servicos h3{
+  font-size: 20px;
+  color: #000000;
+  margin: 20px 0  10px;
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+}
+a:hover{
+  background-color: #FBD638;
+}
+.btn{
+  margin: 30px 0 20px 0;
+  padding: 8px;
+  width: 250px;
+  height: 40px;
+  position: relative;
+  transition: all 1s;
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: #F9DE6B;
+  color: #000000;
+}
+.btn-btn{
+  background-color: #F9DE6B;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+.btnS{
+  color: #000000;
+  background-color: #E7E5D6;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+}

@@ -1,0 +1,31 @@
+.empresa{
+  background: #E7E5D6;
+}
+.realisation h2{
+  font-size: 30px;
+  text-align: center;
+  color: #A98D1A;
+  font-family: 'Russo One', sans-serif;
+}
+.container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.text-left h2 {
+  width: 100%;
+  max-width: 420px;
+  color: #e7bb05;
+  margin: 60px 0 50px 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+}
+.text-left p {
+  color: black;
+  width: 100%;
+  max-width: 420px;
+  margin-bottom: 80px;
+  font-size: 17px;
+}
