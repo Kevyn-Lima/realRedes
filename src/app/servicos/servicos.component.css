@@ -4,6 +4,7 @@
 .imgServ{
   width: 255px;
   height: 255px;
+  align-items: center;
 }
 .container{
   padding-right: 15px;
@@ -29,8 +30,9 @@
   text-align: center;
   font-family: 'Russo One', sans-serif;
 }
-a:hover{
+.container a:hover{
   background-color: #FBD638;
+
 }
 .btn{
   margin: 30px 0 20px 0;
@@ -68,4 +70,31 @@ a:hover{
   border-radius: 5px;
   text-align: center;
   font-size: 14px;
+}
+.post{
+  width: 255px;
+  height: 255px;
+  position: relative;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.post img{
+  display: block;
+  align-items: center;
+}
+.post-s{
+  border-radius: 50%;
+  width: 0;
+  height: 255px;
+  background-color: #FBD638;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.7s;
+}
+.post:hover .post-s{
+  width: 255px;
 }

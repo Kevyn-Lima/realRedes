@@ -6,7 +6,7 @@
 <rect opacity="0" fill="#1F70B7" width="40" height="40"/>
 <circle fill="#fbd638" cx="20" cy="20" r="20"/>
 <g>
-	<rect x="4.745" y="-35.857" fill="none" width="29.333" height="45.2"/>
+	<rect x="4.745" y="-35.800" fill="none" width="29.333" height="45.2"/>
 	<g>
 		<polygon fill="#000000" points="27.705,17.442 25.41,19.736 20,14.326 14.59,19.736 12.295,17.442 20,9.736 		"/>
 	</g>
