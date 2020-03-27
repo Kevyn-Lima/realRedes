@@ -6,8 +6,20 @@
   bottom: 90px;
   right: 5px;
   text-align: center;
+  color: #f1d254;
 }
-
+#btn{
+  position: fixed;
+  z-index: 97;
+  height: 40px;
+  width: 40px;
+  bottom: 90px;
+  right: 5px;
+  text-align: center;
+  background-color: #f1d254;
+  border-radius: 50%;
+  border: none;
+}
 #scrolltop .scrollbutton {
   position: absolute;
   cursor: pointer;
@@ -15,10 +27,10 @@
 a{
   background-color: transparent;
   text-align: center;
-
 }
 img{
   text-align: center;
-  vertical-align: middle;
+  height: 25px;
+  vertical-align: center;
   border: 0;
 }

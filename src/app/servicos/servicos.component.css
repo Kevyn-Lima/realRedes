@@ -93,7 +93,11 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  transition: 0.7s;
+  /*transition: all 1s;*/
+}
+.post-s img{
+  width: 50px;
+  height: 75px;
 }
 .post:hover .post-s{
   width: 255px;
